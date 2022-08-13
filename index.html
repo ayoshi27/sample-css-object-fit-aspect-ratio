@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>【Sample】object-fit object-position</title>
+	<link rel="stylesheet" href="/modern-css-reset.css">
+	<link rel="stylesheet" href="/style.css">
+	<link rel="stylesheet" href="/main.css">
+</head>
+
+<body9>
+	<h1>object-fit, object-position, aspect-ratio</h1>
+	<section>
+		<h2>without trimming</h2>
+		<div class="contents">
+			<ul class="list">
+				<li class="item">
+					<img src="./images/kakigori.jpg" alt="かき氷">
+					<p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+						been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+						and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+						into electronic typesetting, remaining essentially unchanged.</p>
+				</li>
+				<li class="item">
+					<img src="./images/kintoki.jpg" alt="宇治金時">
+					<p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+						been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+						and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+						into electronic typesetting, remaining essentially unchanged.</p>
+				</li>
+				<li class="item">
+					<img src="./images/ichigo.jpg" alt="いちご">
+					<p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+						been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+						and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+						into electronic typesetting, remaining essentially unchanged.</p>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<!-- TODO: 背景画像とpaddingで実装するパターン -->
+	<section>
+		<h2>using background-image + padding</h2>
+		<div class="contents">
+			<ul class="list">
+				<li class="item">
+					<img src="./images/kakigori.jpg" alt="かき氷">
+					<p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+						been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+						and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+						into electronic typesetting, remaining essentially unchanged.</p>
+				</li>
+				<li class="item">
+					<img src="./images/kintoki.jpg" alt="宇治金時">
+					<p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+						been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+						and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+						into electronic typesetting, remaining essentially unchanged.</p>
+				</li>
+				<li class="item">
+					<img src="./images/ichigo.jpg" alt="いちご">
+					<p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+						been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+						and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+						into electronic typesetting, remaining essentially unchanged.</p>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<section id="cover">
+		<h2>cover + aspect-ratio</h2>
+		<div class="contents">
+			<ul class="list">
+				<li class="item">
+					<img src="./images/kakigori.jpg" alt="かき氷" style="object-position: left 94%;">
+					<p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+						been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+						and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+						into electronic typesetting, remaining essentially unchanged.</p>
+				</li>
+				<li class="item">
+					<img src="./images/kintoki.jpg" alt="宇治金時" style="object-position: left 22%;">
+					<p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+						been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+						and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+						into electronic typesetting, remaining essentially unchanged.</p>
+				</li>
+				<li class="item">
+					<img src="./images/ichigo.jpg" alt="いちご">
+					<p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+						been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+						and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+						into electronic typesetting, remaining essentially unchanged.</p>
+				</li>
+			</ul>
+		</div>
+	</section>
+	</body>
+
+</html>
