@@ -19,6 +19,9 @@
 	margin-right: calc(100% - (33%*3))
 }
 
+.text{
+	margin-top: 10px;
+}
 /* object-fit + aspect-ratio */
 #cover img {
 	object-fit: cover;
